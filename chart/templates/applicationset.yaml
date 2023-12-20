@@ -25,6 +25,7 @@ spec:
                 matchLabels:
                   atomi.cloud/cluster-type: 'virtual'
                   atomi.cloud/cluster-landscape: "{{ `{{landscape}}` }}"
+                  atomi.cloud/enable-appset: "true"
   template:
     metadata:
       name: '{{ `{{nameNormalized}}` }}-{{ $k }}-{{ `{{serviceName}}` }}'
