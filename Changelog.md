@@ -1,3 +1,10 @@
+## [1.4.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.3.0...v1.4.0) (2023-12-20)
+
+
+### 🚀 New Features
+
+* allow auto-prune for all resources ([8af408f](https://github.com/AtomiCloud/sulfoxide.radon/commit/8af408fff0bf1ab3602395e2881ec317d6e1d636))
+
 ## [1.3.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.2.0...v1.3.0) (2023-12-20)
 
 
