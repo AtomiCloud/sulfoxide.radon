@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.0.1...v1.0.2) (2023-12-20)
+
+
+### 🐛 Bug Fixes
+
+* incorrect cluster landscape ([62e5281](https://github.com/AtomiCloud/sulfoxide.radon/commit/62e52819d04b6462c623af14070ddd4adf94bf35))
+
 ## [1.0.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.0.0...v1.0.1) (2023-12-20)
 
 
