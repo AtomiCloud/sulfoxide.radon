@@ -4,11 +4,11 @@ env:
   RELEASE_NAME: sulfoxide-carbon
 
 includes:
-  entei:opal:
+  entei:opal-ruby:
     taskfile: tasks/Taskfile.cluster.yaml
     vars:
       LANDSCAPE: entei
-      CLUSTER: opal
+      CLUSTER: opal-ruby
 
 tasks:
   # Utility

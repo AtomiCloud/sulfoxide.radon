@@ -1,5 +1,4 @@
 {{- range $k, $v := .Values.apps }}
-{{- if $v.deploy }}
 apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
@@ -19,7 +18,7 @@ spec:
                   repoURL: "{{ $serviceConfig.repoURL }}"
                   chart: "{{ $serviceConfig.chart }}"
                   revision: "{{ $revision }}"
-                {{- end -}}}
+                {{- end -}}
                 {{- end }}
           - clusters:
               selector:
@@ -48,5 +47,4 @@ spec:
         syncOptions:
           - CreateNamespace=true
 ---
-{{- end }}
 {{- end }}
