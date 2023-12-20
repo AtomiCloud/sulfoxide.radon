@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.0.2...v1.1.0) (2023-12-20)
+
+
+### 🚀 New Features
+
+* only deploy pichu ([450c334](https://github.com/AtomiCloud/sulfoxide.radon/commit/450c334d3f396fb9b7d2e4520ee3c9da044bf4b4))
+
 ## [1.0.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.0.1...v1.0.2) (2023-12-20)
 
 
