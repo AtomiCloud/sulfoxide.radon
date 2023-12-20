@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.1.1...v1.2.0) (2023-12-20)
+
+
+### 🚀 New Features
+
+* disable deployment if enable-appset is false ([cffdc52](https://github.com/AtomiCloud/sulfoxide.radon/commit/cffdc5277ea13b8cbb9d5d05a37f744918d06ace))
+
 ## [1.1.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.1.0...v1.1.1) (2023-12-20)
 
 
