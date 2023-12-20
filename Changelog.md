@@ -1,3 +1,10 @@
+## 1.0.0 (2023-12-20)
+
+
+### 🚀 New Features
+
+* initial commit ([d579cf8](https://github.com/AtomiCloud/sulfoxide.radon/commit/d579cf863ac8556e29bfc7c5a500e57829d52300))
+
 ## [1.10.0](https://github.com/AtomiCloud/sulfoxide.carbon/compare/v1.9.2...v1.10.0) (2023-12-19)
 
 
