@@ -1,0 +1,8 @@
+# -- AtomiCloud Service Tree. See [ServiceTree](https://atomicloud.larksuite.com/wiki/OkfJwTXGFiMJkrk6W3RuwRrZs64?theme=DARK&contentTheme=DARK#MHw5d76uDo2tBLx86cduFQMRsBb)
+serviceTree:
+  landscape: entei
+  platform: sulfoxide
+  service: radon
+  layer: "1"
+
+apps: {}

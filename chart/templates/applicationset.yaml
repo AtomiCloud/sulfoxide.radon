@@ -1,0 +1,52 @@
+{{- range $k, $v := .Values.apps }}
+{{- if $v.deploy }}
+apiVersion: argoproj.io/v1alpha1
+kind: ApplicationSet
+metadata:
+  name: "{{ $k }}"
+  annotations: {{- include "sulfoxide-radon.annotations" $ | nindent 4 }}
+  labels: {{- include "sulfoxide-radon.labels" $ | nindent 4 }}
+spec:
+  generators:
+    - matrix:
+        generators:
+          - list:
+              elements:
+                {{ range $service, $serviceConfig := $v.services -}}
+                {{- range $landscape, $revision := $serviceConfig.landscapes}}
+                - landscape: "{{ $landscape }}"
+                  serviceName: "{{ $service }}"
+                  repoURL: "{{ $serviceConfig.repoURL }}"
+                  chart: "{{ $serviceConfig.chart }}"
+                  revision: "{{ $revision }}"
+                {{- end -}}}
+                {{- end }}
+          - clusters:
+              selector:
+                matchLabels:
+                  atomi.cloud/cluster-type: 'virtual'
+                  atomi.cloud/landscape: "{{ `{{landscape}}` }}"
+  template:
+    metadata:
+      name: '{{ `{{nameNormalized}}` }}-{{ $k }}-{{ `{{serviceName}}` }}'
+    spec:
+      project: "{{ $k }}"
+      source:
+        repoURL: "{{ `{{repoURL}}` }}"
+        targetRevision: "{{ `{{revision}}` }}"
+        helm:
+          valueFiles:
+            - values.yaml
+            - "values.{{ `{{landscape}}` }}.yaml"
+        chart: "{{ `{{chart}}` }}"
+      destination:
+        server: '{{ `{{server}}` }}'
+        namespace: "{{ $k }}"
+      syncPolicy:
+        automated:
+          selfHeal: true
+        syncOptions:
+          - CreateNamespace=true
+---
+{{- end }}
+{{- end }}
