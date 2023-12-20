@@ -11,7 +11,7 @@ spec:
         generators:
           - list:
               elements:
-                {{ range $service, $serviceConfig := $v.services -}}
+                {{ range $service, $serviceConfig := $v -}}
                 {{- range $landscape, $revision := $serviceConfig.landscapes}}
                 - landscape: "{{ $landscape }}"
                   serviceName: "{{ $service }}"

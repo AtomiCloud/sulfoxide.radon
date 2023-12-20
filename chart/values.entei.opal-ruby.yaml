@@ -6,28 +6,26 @@ serviceTree:
   layer: "1"
 
 apps:
-#  nitroso:
-#    services:
-#      zinc:
-#        repoURL: ghcr.io/atomicloud/nitroso.zinc
-#        chart: root-chart
-#        landscapes: {}
-##          pichu: ^1.8.0
-##          pikachu: ~1.8.0
-##          raichu: 1.8.0
-#      tin:
-#        repoURL: ghcr.io/atomicloud/nitroso.tin
-#        chart: root-chart
-#        landscapes: {}
-##          pichu: ^1.0.0
-##          pikachu: ~1.0.0
-##          raichu: 1.0.0
+  nitroso:
+    zinc:
+      repoURL: ghcr.io/atomicloud/nitroso.zinc
+      chart: root-chart
+      landscapes:
+        pichu: ^1.8.0
+        pikachu: ~1.8.0
+        raichu: 1.8.0
+#    tin:
+#      repoURL: ghcr.io/atomicloud/nitroso.tin
+#      chart: root-chart
+#      landscapes:
+#        pichu: ^1.0.0
+#        pikachu: ~1.0.0
+#        raichu: 1.0.0
   sulfone:
-    services:
-      zinc:
-        repoURL: ghcr.io/atomicloud/sulfone.zinc
-        chart: root-chart
-        landscapes:
-          pichu: ^1.16.1
-          pikachu: ~1.16.1
-          raichu: 1.16.1
+    zinc:
+      repoURL: ghcr.io/atomicloud/sulfone.zinc
+      chart: root-chart
+      landscapes:
+        pichu: ^1.16.1
+        pikachu: ~1.16.1
+        raichu: 1.16.1
