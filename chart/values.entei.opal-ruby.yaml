@@ -16,7 +16,7 @@ apps:
 #          pikachu: ~1.8.0
 #          raichu: 1.8.0
       tin:
-        repoURL: ghcr.io/atomicloud/nitroso.zinc
+        repoURL: ghcr.io/atomicloud/nitroso.tin
         chart: root-chart
         landscapes:
           pichu: ^1.0.0
