@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.2.0...v1.3.0) (2023-12-20)
+
+
+### 🚀 New Features
+
+* deploy nitroso-helium ([681e850](https://github.com/AtomiCloud/sulfoxide.radon/commit/681e8504ed0a1a010f64cebd6ab1ada0ded75990))
+
 ## [1.2.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.1.1...v1.2.0) (2023-12-20)
 
 
