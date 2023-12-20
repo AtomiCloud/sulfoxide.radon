@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.0.0...v1.0.1) (2023-12-20)
+
+
+### 🐛 Bug Fixes
+
+* incorrect template values ([1297713](https://github.com/AtomiCloud/sulfoxide.radon/commit/1297713b29ab0ffe7506432b9eb90009101c5272))
+
 ## 1.0.0 (2023-12-20)
 
 
