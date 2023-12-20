@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.1.0...v1.1.1) (2023-12-20)
+
+
+### 🐛 Bug Fixes
+
+* incorrect repository to deploy ([e127c30](https://github.com/AtomiCloud/sulfoxide.radon/commit/e127c307ee5346f24c34b46f744244bd1cd0e423))
+
 ## [1.1.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.0.2...v1.1.0) (2023-12-20)
 
 
