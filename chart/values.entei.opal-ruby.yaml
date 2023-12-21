@@ -19,13 +19,15 @@ apps:
       chart: root-chart
       landscapes:
         pichu: ^1.0.0
-#        pikachu: ~1.0.0
-#        raichu: 1.0.0
+        pikachu: ~1.2.3
+        raichu: 1.2.3
     helium:
       repoURL: ghcr.io/atomicloud/nitroso.helium
       chart: root-chart
       landscapes:
         pichu: ^1.0.0
+        pikachu: ~1.4.5
+        raichu: 1.4.5
   sulfone:
     zinc:
       repoURL: ghcr.io/atomicloud/sulfone.zinc
