@@ -18,9 +18,9 @@ apps:
       repoURL: ghcr.io/atomicloud/nitroso.tin
       chart: root-chart
       landscapes:
-        pichu: ^1.2.3
-        pikachu: ~1.2.3
-        raichu: 1.2.3
+        pichu: ^1.2.4
+        pikachu: ~1.2.4
+        raichu: 1.2.4
     helium:
       repoURL: ghcr.io/atomicloud/nitroso.helium
       chart: root-chart
