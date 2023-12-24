@@ -20,7 +20,7 @@ apps:
       landscapes:
         pichu: ^1.2.5
         pikachu: ~1.2.5
-        raichu: 1.2.5
+        raichu: 1.2.4
     helium:
       repoURL: ghcr.io/atomicloud/nitroso.helium
       chart: root-chart
