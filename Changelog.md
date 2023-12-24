@@ -1,3 +1,10 @@
+## [1.4.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.4.0...v1.4.1) (2023-12-24)
+
+
+### 🐛 Bug Fixes
+
+* disable autosync ([a42c2c7](https://github.com/AtomiCloud/sulfoxide.radon/commit/a42c2c70608ea728626808675fc0179a4729393d))
+
 ## [1.4.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.3.0...v1.4.0) (2023-12-20)
 
 
