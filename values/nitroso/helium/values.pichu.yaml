@@ -1,7 +1,0 @@
-scheduler:
-  schedule: "0 16 * * *"
-  command:
-    - "bun"
-    - "run"
-    - "index.js"
-    - "schedule"
