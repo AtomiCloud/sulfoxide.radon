@@ -6,3 +6,8 @@ serviceTree:
   layer: "1"
 
 apps: {}
+
+
+self:
+  repo: https://github.com/AtomiCloud/sulfoxide.radon.git
+  branch: main

@@ -31,14 +31,19 @@ spec:
       name: '{{ `{{nameNormalized}}` }}-{{ $k }}-{{ `{{serviceName}}` }}'
     spec:
       project: "{{ $k }}"
-      source:
-        repoURL: "{{ `{{repoURL}}` }}"
-        targetRevision: "{{ `{{revision}}` }}"
-        helm:
-          valueFiles:
-            - values.yaml
-            - "values.{{ `{{landscape}}` }}.yaml"
-        chart: "{{ `{{chart}}` }}"
+      sources:
+        - repoURL: "{{ `{{repoURL}}` }}"
+          targetRevision: "{{ `{{revision}}` }}"
+          helm:
+            valueFiles:
+              - values.yaml
+              - "values.{{ `{{landscape}}` }}.yaml"
+              - "$values/values/{{ $k }}/{{ `{{serviceName}}` }}/values.{{ `{{landscape}}` }}.yaml"
+          chart: "{{ `{{chart}}` }}"
+        - repoURL: "{{ $.Values.self.repo }}"
+          targetRevision: "{{ $.Values.self.branch }}"
+          ref: "values"
+
       destination:
         server: '{{ `{{server}}` }}'
         namespace: "{{ $k }}"

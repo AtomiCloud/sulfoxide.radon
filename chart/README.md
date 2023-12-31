@@ -9,6 +9,8 @@ AtomiCloud Cluster Domain ApplicationSets
 | Key | Type | Default | Description |
 |-----|------|---------|-------------|
 | apps | object | `{}` |  |
+| self.branch | string | `"main"` |  |
+| self.repo | string | `"https://github.com/AtomiCloud/sulfoxide.radon.git"` |  |
 | serviceTree | object | `{"landscape":"entei","layer":"1","platform":"sulfoxide","service":"radon"}` | AtomiCloud Service Tree. See [ServiceTree](https://atomicloud.larksuite.com/wiki/OkfJwTXGFiMJkrk6W3RuwRrZs64?theme=DARK&contentTheme=DARK#MHw5d76uDo2tBLx86cduFQMRsBb) |
 
 ----------------------------------------------
