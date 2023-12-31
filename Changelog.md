@@ -1,3 +1,11 @@
+## [1.5.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.0...v1.5.1) (2023-12-31)
+
+
+### 🐛 Bug Fixes
+
+* use UTC to test trigger ([943672f](https://github.com/AtomiCloud/sulfoxide.radon/commit/943672ff507c71094088ec5b3e9c18d457534eca))
+* use UTC to test trigger ([12d9b38](https://github.com/AtomiCloud/sulfoxide.radon/commit/12d9b38fd1fa13e97fa82fb9ca29af7c819a4f4a))
+
 ## [1.5.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.4.1...v1.5.0) (2023-12-31)
 
 
