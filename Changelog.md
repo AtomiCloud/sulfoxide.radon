@@ -1,3 +1,10 @@
+## [1.5.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.4.1...v1.5.0) (2023-12-31)
+
+
+### 🚀 New Features
+
+* allow values override ([71ac70a](https://github.com/AtomiCloud/sulfoxide.radon/commit/71ac70a878cfed7c4de9f18674782841c85b9a00))
+
 ## [1.4.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.4.0...v1.4.1) (2023-12-24)
 
 
