@@ -1,2 +1,2 @@
 scheduler:
-  schedule: "36 0 * * *"
+  schedule: "38 0 * * *"
