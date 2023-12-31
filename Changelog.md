@@ -1,3 +1,10 @@
+## [1.5.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.1...v1.5.2) (2023-12-31)
+
+
+### 🐛 Bug Fixes
+
+* remove override ([ac100aa](https://github.com/AtomiCloud/sulfoxide.radon/commit/ac100aa8e223594b5b94cce025a589d16e27b9e2))
+
 ## [1.5.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.0...v1.5.1) (2023-12-31)
 
 
