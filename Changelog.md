@@ -1,3 +1,10 @@
+## [1.5.3](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.2...v1.5.3) (2024-02-08)
+
+
+### 🐛 Bug Fixes
+
+* releaser ([2b21ce2](https://github.com/AtomiCloud/sulfoxide.radon/commit/2b21ce2237cf0fde3b820fe6d93dcd68d3b26d77))
+
 ## [1.5.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.1...v1.5.2) (2023-12-31)
 
 
