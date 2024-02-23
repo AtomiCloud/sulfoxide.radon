@@ -6,3 +6,6 @@ reserver:
     requests:
       cpu: 250m
       memory: 256Mi
+buyer:
+  image:
+    repository: ghcr.io/atomicloud/nitroso.tin/nitroso-tin-arm

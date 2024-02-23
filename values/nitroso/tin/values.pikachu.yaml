@@ -2,3 +2,6 @@ enricher:
   appSettings:
     enricher:
       email: ramadan@quantumquokkaquest.cfd
+buyer:
+  image:
+    repository: ghcr.io/atomicloud/nitroso.tin/nitroso-tin-arm
