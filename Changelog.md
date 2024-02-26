@@ -1,3 +1,10 @@
+## [1.5.4](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.3...v1.5.4) (2024-02-26)
+
+
+### 🐛 Bug Fixes
+
+* label applictions ([3a1a9e9](https://github.com/AtomiCloud/sulfoxide.radon/commit/3a1a9e914ad43bf011a9b51ac9aa41b4f83e6fab))
+
 ## [1.5.3](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.2...v1.5.3) (2024-02-08)
 
 
