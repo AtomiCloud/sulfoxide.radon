@@ -1,0 +1,5 @@
+poller:
+  appSettings:
+    poller:
+      pollee:
+        version: "1.9.2"

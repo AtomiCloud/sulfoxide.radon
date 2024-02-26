@@ -2,3 +2,8 @@ enricher:
   appSettings:
     enricher:
       email: ramadan@quantumquokkaquest.cfd
+poller:
+  appSettings:
+    poller:
+      pollee:
+        version: "1.9.2"
