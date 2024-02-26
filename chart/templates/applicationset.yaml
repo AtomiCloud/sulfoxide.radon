@@ -29,6 +29,14 @@ spec:
   template:
     metadata:
       name: '{{ `{{nameNormalized}}` }}-{{ $k }}-{{ `{{serviceName}}` }}'
+      labels:
+        atomi.cloud/landscape: "{{ `{{landscape}}` }}"
+        atomi.cloud/platform: "{{ $k }}"
+        atomi.cloud/service: "{{ `{{serviceName}}` }}"
+      annotations:
+        atomi.cloud/landscape: "{{ `{{landscape}}` }}"
+        atomi.cloud/platform: "{{ $k }}"
+        atomi.cloud/service: "{{ `{{serviceName}}` }}"
     spec:
       project: "{{ $k }}"
       sources:
