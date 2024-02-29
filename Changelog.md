@@ -1,3 +1,10 @@
+## [1.5.5](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.4...v1.5.5) (2024-02-29)
+
+
+### 🐛 Bug Fixes
+
+* incorrect watcher settings ([7f0eb82](https://github.com/AtomiCloud/sulfoxide.radon/commit/7f0eb825db15c552013cd9da35b671ac88e02946))
+
 ## [1.5.4](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.3...v1.5.4) (2024-02-26)
 
 
