@@ -1,3 +1,4 @@
 appSettings:
   app:
-    watcher: 0.25
+    watcher:
+      delay: 0.5
