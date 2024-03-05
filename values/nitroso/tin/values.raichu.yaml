@@ -3,3 +3,5 @@ poller:
     poller:
       pollee:
         version: "1.12.0"
+reserver:
+  replicaCount: 2
