@@ -3,5 +3,6 @@ poller:
     poller:
       pollee:
         version: "1.12.1"
+
 reserver:
-  replicaCount: 4
+  replicaCount: 6
