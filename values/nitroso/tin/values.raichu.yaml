@@ -6,3 +6,11 @@ poller:
 
 reserver:
   replicaCount: 6
+  appSettings:
+    buffers:
+      closing: 60
+
+pollers:
+  appSettings:
+    buffers:
+      closing: 60
