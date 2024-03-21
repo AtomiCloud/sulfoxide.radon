@@ -9,6 +9,13 @@ reserver:
   appSettings:
     buffers:
       closing: 60
+    stream:
+      reserver: buyqueue
+
+buyer:
+  appSettings:
+    stream:
+      reserver: buyqueue
 
 pollers:
   appSettings:
