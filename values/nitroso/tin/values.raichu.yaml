@@ -1,5 +1,5 @@
 poller:
-  replicaCount: 0
+  replicaCount: 3
   appSettings:
     poller:
       pollee:
