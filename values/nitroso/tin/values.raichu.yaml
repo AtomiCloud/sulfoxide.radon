@@ -16,6 +16,7 @@ reserver:
 
 buyer:
   appSettings:
+    sleepBuffer: 5
     stream:
       reserver: buyqueue
 
