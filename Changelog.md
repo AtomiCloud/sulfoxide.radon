@@ -1,3 +1,15 @@
+## [1.6.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.5...v1.6.0) (2024-07-13)
+
+
+### 📦 Upstreams Changes
+
+* update atomi nix upstream to 27.0.0 ([29500ce](https://github.com/AtomiCloud/sulfoxide.radon/commit/29500ce4dfdfc100e3e39b9a388df5da74e8fa6f))
+
+
+### 🚀 New Features
+
+* scale enricher to 0 temporarily ([30d26ef](https://github.com/AtomiCloud/sulfoxide.radon/commit/30d26ef0e2caf8c76c50375d97d1325ed0bf0aa1))
+
 ## [1.5.5](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.4...v1.5.5) (2024-02-29)
 
 
