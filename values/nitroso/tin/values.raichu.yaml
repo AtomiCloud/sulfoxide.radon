@@ -3,7 +3,7 @@ poller:
   appSettings:
     poller:
       pollee:
-        version: "1.12.1"
+        version: "1.14.0"
 enricher:
   replicaCount: 1
 reserver:
