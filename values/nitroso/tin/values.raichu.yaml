@@ -22,6 +22,7 @@ buyer:
       reserver: buyqueue
 
 pollers:
+  replicaCount: 1
   appSettings:
     buffers:
       closing: 60
