@@ -1,3 +1,10 @@
+## [1.6.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.6.0...v1.6.1) (2024-08-08)
+
+
+### 🐛 Bug Fixes
+
+* **nitroso-tin:** incorrect values for raichu ([543ebfa](https://github.com/AtomiCloud/sulfoxide.radon/commit/543ebfa2b8b847e9ec939ed361a4cab4cac0a8e9))
+
 ## [1.6.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.5.5...v1.6.0) (2024-07-13)
 
 
