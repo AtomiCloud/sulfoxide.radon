@@ -1,6 +1,8 @@
 poller:
   replicaCount: 3
   appSettings:
+    buffers:
+      closing: 60
     poller:
       pollee:
         version: "1.14.0"
@@ -20,9 +22,3 @@ buyer:
       sleepBuffer: 7
     stream:
       reserver: buyqueue
-
-pollers:
-  replicaCount: 1
-  appSettings:
-    buffers:
-      closing: 60
