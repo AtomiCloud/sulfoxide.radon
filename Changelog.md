@@ -1,3 +1,10 @@
+## [1.7.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.6.2...v1.7.0) (2024-08-11)
+
+
+### 🚀 New Features
+
+* **nitroso:** reduce replica count for pichu & pikachu tin poller ([7ee2cfe](https://github.com/AtomiCloud/sulfoxide.radon/commit/7ee2cfec44a70589844c9985f2655217dcc0c9cd))
+
 ## [1.6.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.6.1...v1.6.2) (2024-08-11)
 
 
