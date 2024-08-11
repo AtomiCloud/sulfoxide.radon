@@ -3,6 +3,7 @@ enricher:
     enricher:
       email: ramadan@quantumquokkaquest.cfd
 poller:
+  replicaCount: 0
   appSettings:
     poller:
       pollee:
