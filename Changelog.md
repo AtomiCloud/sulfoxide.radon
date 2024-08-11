@@ -1,3 +1,10 @@
+## [1.6.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.6.1...v1.6.2) (2024-08-11)
+
+
+### 🐛 Bug Fixes
+
+* incorrect polle version pin for pichu & pikachu ([7fa5cc8](https://github.com/AtomiCloud/sulfoxide.radon/commit/7fa5cc845fd467e4b630f77aced295e38e09105a))
+
 ## [1.6.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.6.0...v1.6.1) (2024-08-08)
 
 
