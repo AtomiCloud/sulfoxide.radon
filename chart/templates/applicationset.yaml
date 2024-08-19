@@ -59,6 +59,8 @@ spec:
         automated:
           prune: true
           selfHeal: true
+        retry:
+          limit: 15
         syncOptions:
           - CreateNamespace=true
 ---
