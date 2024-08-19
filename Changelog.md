@@ -1,3 +1,10 @@
+## [1.7.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.7.0...v1.7.1) (2024-08-19)
+
+
+### 🐛 Bug Fixes
+
+* increase retry limit ([ad364c0](https://github.com/AtomiCloud/sulfoxide.radon/commit/ad364c00c0dd37a77351f93f9ee950c554620afe))
+
 ## [1.7.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.6.2...v1.7.0) (2024-08-11)
 
 
