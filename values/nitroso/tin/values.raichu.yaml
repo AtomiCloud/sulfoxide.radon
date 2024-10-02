@@ -5,7 +5,7 @@ poller:
       closing: 60
     poller:
       pollee:
-        version: "1.14.2"
+        version: '1.14.2'
 enricher:
   replicaCount: 1
 reserver:
