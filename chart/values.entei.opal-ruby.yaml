@@ -28,11 +28,11 @@ apps:
         pichu: ^1.15.0
         pikachu: ~1.15.0
         raichu: 1.15.0
-#  sulfone:
-#    zinc:
-#      repoURL: ghcr.io/atomicloud/sulfone.zinc
-#      chart: root-chart
-#      landscapes:
-#        pichu: ^1.16.3
-#        pikachu: ~1.16.3
-#        raichu: 1.16.3
+  sulfone:
+    zinc:
+      repoURL: ghcr.io/atomicloud/sulfone.zinc
+      chart: root-chart
+      landscapes:
+        pichu: ^1.16.3
+        pikachu: ~1.16.3
+        raichu: 1.16.3
