@@ -33,6 +33,6 @@ apps:
       repoURL: ghcr.io/atomicloud/sulfone.zinc
       chart: root-chart
       landscapes:
-        pichu: ^1.17.1
-        pikachu: ~1.17.1
-        raichu: 1.17.1
+        pichu: ^1.18.0
+        pikachu: ~1.18.0
+        raichu: 1.18.0
