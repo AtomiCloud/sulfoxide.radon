@@ -1,34 +1,27 @@
-{ pkgs, atomi, pkgs-sep-24-23 }:
+{ pkgs, atomi, pkgs-2505 }:
 let
 
   all = {
     atomipkgs = (
       with atomi;
       {
+        helmlint = atomi.helmlint.override { helmPackage = infrautils; };
         inherit
-          infisical
+          infrautils
+          atomiutils
+          infralint
           pls
           sg;
       }
     );
-    sep-24-23 = (
-      with pkgs-sep-24-23;
+    nix-2505 = (
+      with pkgs-2505;
       {
         inherit
-          coreutils
-          sd
-          bash
+          infisical
           git
-          jq
-          yq-go
-
-          # lint
           treefmt
 
-          # infra
-          k3d
-          helm-docs
-          kubectl
           gitlint
           shellcheck
           ;
@@ -40,4 +33,4 @@ let
 in
 with all;
 atomipkgs //
-sep-24-23
+nix-2505
