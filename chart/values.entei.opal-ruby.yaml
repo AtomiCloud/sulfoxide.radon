@@ -41,6 +41,6 @@ apps:
       repoURL: ghcr.io/atomicloud/alcohol.zinc
       chart: root-chart
       landscapes:
-        pichu: ^1.0.1
-        pikachu: ~1.0.1
-        raichu: 1.0.1
+        pichu: v1.*.*
+        pikachu: v1.0.*
+        raichu: v1.0.1
