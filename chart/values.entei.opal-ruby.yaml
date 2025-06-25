@@ -35,7 +35,7 @@ apps:
       landscapes:
         pichu: v2.*.*
         pikachu: v2.1.*
-        raichu: v2.1.0
+        raichu: v2.1.1
   alcohol:
     zinc:
       repoURL: ghcr.io/atomicloud/alcohol.zinc
