@@ -1,3 +1,16 @@
+## [1.8.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.7.1...v1.8.0) (2025-06-25)
+
+
+### 📦 Upstreams Changes
+
+* **atominix:** ugrading to 28.0.0 ([9b2e1d4](https://github.com/AtomiCloud/sulfoxide.radon/commit/9b2e1d416f1d45aa37840731f70ef16ed4938d70))
+
+
+### 🚀 New Features
+
+* upgrade to use namespacelabs ([2669806](https://github.com/AtomiCloud/sulfoxide.radon/commit/2669806be23bdd53cb4de11972f03e66aaed1029))
+* use star syntax ([832a5df](https://github.com/AtomiCloud/sulfoxide.radon/commit/832a5df629bfc18fd221a733826889a37b9f492e))
+
 ## [1.7.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.7.0...v1.7.1) (2024-08-19)
 
 
