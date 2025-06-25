@@ -1,4 +1,4 @@
-{ pkgs, atomi, pkgs-2505 }:
+{ pkgs, atomi, pkgs-2505, pkgs-unstable }:
 let
 
   all = {
@@ -14,6 +14,10 @@ let
           sg;
       }
     );
+    nix-unstable = (
+      with pkgs-unstable;
+      { }
+    );
     nix-2505 = (
       with pkgs-2505;
       {
@@ -25,8 +29,6 @@ let
           gitlint
           shellcheck
           ;
-        helm = kubernetes-helm;
-
       }
     );
   };
