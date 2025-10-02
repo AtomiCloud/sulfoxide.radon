@@ -37,10 +37,10 @@ apps:
         pikachu: v2.3.*
         raichu: v2.3.0
   alcohol:
-    zinc:
-      repoURL: ghcr.io/atomicloud/alcohol.zinc
-      chart: root-chart
+    carbon:
+      repoURL: ghcr.io/atomicloud/alcohol.carbon
+      chart: alcohol-carbon
       landscapes:
         pichu: v1.*.*
         pikachu: v1.0.*
-        raichu: v1.0.5
+        raichu: v1.0.0
