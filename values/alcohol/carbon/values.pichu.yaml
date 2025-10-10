@@ -1,0 +1,7 @@
+zinc:
+  api:
+    appSettings:
+      HttpClient:
+        AIRWALLEX:
+          BaseAddress: 'https://api-demo.airwallex.com'
+          Timeout: 60
