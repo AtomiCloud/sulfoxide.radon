@@ -42,5 +42,5 @@ apps:
       chart: alcohol-carbon
       landscapes:
         pichu: v1.*.*
-        pikachu: v1.8.*
-        raichu: v1.8.0
+        pikachu: v1.9.*
+        raichu: v1.9.0
