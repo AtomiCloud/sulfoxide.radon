@@ -9,7 +9,7 @@ poller:
 enricher:
   replicaCount: 1
 reserver:
-  replicaCount: 6
+  replicaCount: 7
   appSettings:
     buffers:
       closing: 60
