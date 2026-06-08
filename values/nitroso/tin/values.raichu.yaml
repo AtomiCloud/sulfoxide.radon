@@ -5,7 +5,7 @@ poller:
       closing: 60
     poller:
       pollee:
-        version: '1.18.1'
+        version: '1.19.0'
 enricher:
   replicaCount: 1
 reserver:
@@ -19,6 +19,6 @@ reserver:
 buyer:
   appSettings:
     buyer:
-      sleepBuffer: 7
+      sleepBuffer: 1
     stream:
       reserver: buyqueue
