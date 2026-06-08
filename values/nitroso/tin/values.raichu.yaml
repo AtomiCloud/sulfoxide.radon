@@ -1,5 +1,5 @@
 poller:
-  replicaCount: 2
+  replicaCount: 3
   appSettings:
     buffers:
       closing: 60
