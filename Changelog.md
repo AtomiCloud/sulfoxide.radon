@@ -1,3 +1,10 @@
+## [1.10.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.9.0...v1.10.0) (2026-06-22)
+
+
+### 🚀 New Features
+
+* promote alcohol carbon to v1.11.0 on raichu (production) ([1b897f6](https://github.com/AtomiCloud/sulfoxide.radon/commit/1b897f67ad5a726624aed08c7ccac405240282e6))
+
 ## [1.9.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.8.2...v1.9.0) (2026-06-22)
 
 
