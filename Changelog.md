@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.8.2...v1.9.0) (2026-06-22)
+
+
+### 🚀 New Features
+
+* promote alcohol carbon to v1.11.* on pikachu ([80a2830](https://github.com/AtomiCloud/sulfoxide.radon/commit/80a283019bc01607f25c78769705d89ee739decb))
+
 ## [1.8.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.8.1...v1.8.2) (2025-10-07)
 
 
