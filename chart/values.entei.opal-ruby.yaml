@@ -43,4 +43,4 @@ apps:
       landscapes:
         pichu: v1.*.*
         pikachu: v1.11.*
-        raichu: v1.10.0
+        raichu: v1.11.0
