@@ -11,8 +11,8 @@ apps:
       repoURL: ghcr.io/atomicloud/nitroso.zinc
       chart: root-chart
       landscapes:
-        pichu: ^1.33.2
-        pikachu: ~1.33.2
+        pichu: ^1.34.0
+        pikachu: ~1.34.0
         raichu: 1.33.2
     tin:
       repoURL: ghcr.io/atomicloud/nitroso.tin
@@ -25,8 +25,8 @@ apps:
       repoURL: ghcr.io/atomicloud/nitroso.helium
       chart: root-chart
       landscapes:
-        pichu: ^1.17.0
-        pikachu: ~1.17.0
+        pichu: ^1.19.1
+        pikachu: ~1.19.1
         raichu: 1.17.0
   sulfone:
     zinc:
