@@ -22,3 +22,9 @@ buyer:
       sleepBuffer: 1
     stream:
       reserver: buyqueue
+
+# withdrawer parked until Airwallex PayNow payouts (Beta) are enabled on the
+# account: the nightly approve sweep would only bounce every Pending
+# withdrawal off the gateway. Re-enable by deleting this block.
+withdrawer:
+  enabled: false
