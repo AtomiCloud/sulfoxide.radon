@@ -13,7 +13,7 @@ apps:
       landscapes:
         pichu: ^1.51.0
         pikachu: ~1.51.0
-        raichu: 1.52.0
+        raichu: 1.53.0
     tin:
       repoURL: ghcr.io/atomicloud/nitroso.tin
       chart: root-chart
