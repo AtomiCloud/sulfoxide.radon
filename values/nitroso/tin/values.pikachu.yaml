@@ -8,3 +8,20 @@ poller:
     poller:
       pollee:
         version: '1.19.0'
+# --- epoch prober DRY-RUN validation (Phase 0, EPOCH-PROBER.md §9) ---
+# spawner ticks every minute and spawns tin-prober-<epoch>-<shard>-<fanout>
+# Jobs that probe KTMB Reserve on the enricher account, log polls/holds
+# tallies, and CANCEL every hold immediately (dryRun) — no ReserveDto is
+# enqueued, no money moves. The legacy reserver/buyer are scaled to 0 for
+# the money-leak isolation the PR #41 review demanded (a cancelled hold
+# re-appearing as availability must not trigger a legacy buy).
+# REVERT = spawner.enabled false + restore reserver/buyer replicas.
+spawner:
+  enabled: true
+  appSettings:
+    prober:
+      dryRun: true
+reserver:
+  replicaCount: 0
+buyer:
+  replicaCount: 0
