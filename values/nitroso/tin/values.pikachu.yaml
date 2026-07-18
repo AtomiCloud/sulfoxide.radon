@@ -16,11 +16,25 @@ poller:
 # the money-leak isolation the PR #41 review demanded (a cancelled hold
 # re-appearing as availability must not trigger a legacy buy).
 # REVERT = spawner.enabled false + restore reserver/buyer replicas.
+#
+# SCALING TEST (was 250m/128Mi): both the spawner (which does enrichment)
+# and the spawned prober Jobs bumped to 1 CPU / 1Gi, requests==limits
+# (Guaranteed QoS, integer CPU => CPU-pinning-eligible; true core-pinning
+# still needs the node kubelet cpu-manager-policy=static, currently 'none').
 spawner:
   enabled: true
+  resources:
+    requests:
+      cpu: '1'
+      memory: '1Gi'
+    limits:
+      cpu: '1'
+      memory: '1Gi'
   appSettings:
     prober:
       dryRun: true
+      jobCpu: '1'
+      jobMemory: '1Gi'
 reserver:
   replicaCount: 0
 buyer:
