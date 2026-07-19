@@ -1,3 +1,10 @@
+## [1.11.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.10.0...v1.11.0) (2026-07-19)
+
+
+### 🚀 New Features
+
+* **pikachu/tin:** switch enricher account to ernest@bunnybooker.com ([#56](https://github.com/AtomiCloud/sulfoxide.radon/issues/56)) ([aceca61](https://github.com/AtomiCloud/sulfoxide.radon/commit/aceca615aa581dfb4d471ee29cd179321a0f8485))
+
 ## [1.10.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.9.0...v1.10.0) (2026-06-22)
 
 
