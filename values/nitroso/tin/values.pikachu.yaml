@@ -1,7 +1,7 @@
 enricher:
   appSettings:
     enricher:
-      email: ramadan@quantumquokkaquest.cfd
+      email: ernest@bunnybooker.com
 poller:
   replicaCount: 0
   appSettings:
