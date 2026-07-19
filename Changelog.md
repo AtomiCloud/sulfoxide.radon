@@ -1,3 +1,10 @@
+## [1.11.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.0...v1.11.1) (2026-07-19)
+
+
+### 🐛 Bug Fixes
+
+* **pikachu/tin:** pin ALL modules to ernest, not just enricher ([#57](https://github.com/AtomiCloud/sulfoxide.radon/issues/57)) ([b34f437](https://github.com/AtomiCloud/sulfoxide.radon/commit/b34f43776536ffe1c209d7a07ed178e39d9a5cb7)), closes [#56](https://github.com/AtomiCloud/sulfoxide.radon/issues/56)
+
 ## [1.11.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.10.0...v1.11.0) (2026-07-19)
 
 
