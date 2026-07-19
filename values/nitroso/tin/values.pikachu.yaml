@@ -1,3 +1,8 @@
+# All pikachu tin modules must use the ernest@bunnybooker.com test account.
+# The chart default is n@gmail.com (kirinnee97@gmail.com) which is RAICHU's
+# PROD account — pikachu must never authenticate as it. Every module that can
+# perform a KTMB login (fresh login on cache-miss / session-death recovery)
+# is pinned to ernest here. Password comes from Infisical ATOMI_ENRICHER__PASSWORD.
 enricher:
   appSettings:
     enricher:
@@ -5,9 +10,27 @@ enricher:
 poller:
   replicaCount: 0
   appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
     poller:
       pollee:
         version: '1.19.0'
+cdc:
+  appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
+recoverer:
+  appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
+terminator:
+  appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
+withdrawer:
+  appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
 # --- epoch prober DRY-RUN validation (Phase 0, EPOCH-PROBER.md §9) ---
 # spawner ticks every minute and spawns tin-prober-<epoch>-<shard>-<fanout>
 # Jobs that probe KTMB Reserve on the enricher account, log polls/holds
@@ -21,6 +44,10 @@ poller:
 # and the spawned prober Jobs bumped to 1 CPU / 1Gi, requests==limits
 # (Guaranteed QoS, integer CPU => CPU-pinning-eligible; true core-pinning
 # still needs the node kubelet cpu-manager-policy=static, currently 'none').
+#
+# The spawner does the prober's session RecoverSession/Ensure LOGIN, so it MUST
+# be ernest — otherwise on session-death it re-logins as the chart-default prod
+# account and hammers it with wrong-password attempts.
 spawner:
   enabled: true
   resources:
@@ -31,11 +58,19 @@ spawner:
       cpu: '1'
       memory: '1Gi'
   appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
     prober:
       dryRun: true
       jobCpu: '1'
       jobMemory: '1Gi'
 reserver:
   replicaCount: 0
+  appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
 buyer:
   replicaCount: 0
+  appSettings:
+    enricher:
+      email: ernest@bunnybooker.com
