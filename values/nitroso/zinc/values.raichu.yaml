@@ -1,6 +1,8 @@
 api:
   autoscaling:
-    # Was 30 (chart default). The HPA sat pinned at 30 from 2026-08-18 while
-    # running at ~14% CPU / ~25% memory of requests, reserving ~15 cores and
-    # starving helium-pollee seat-watcher jobs (1 core each) of CPU.
-    maxReplicas: 10
+    # Was 30 (chart default), then 10. The HPA sat pinned at 30 from
+    # 2026-08-18 while running at ~14% CPU / ~25% memory of requests,
+    # reserving ~15 cores and starving helium-pollee seat-watcher jobs of CPU.
+    # After fresh pods it settled at 3 (3% CPU / 47% memory). Capped at 5 to
+    # leave the shared nodes' CPU for the pollers.
+    maxReplicas: 5
