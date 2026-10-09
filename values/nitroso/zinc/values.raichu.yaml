@@ -1,0 +1,6 @@
+api:
+  autoscaling:
+    # Was 30 (chart default). The HPA sat pinned at 30 from 2026-08-18 while
+    # running at ~14% CPU / ~25% memory of requests, reserving ~15 cores and
+    # starving helium-pollee seat-watcher jobs (1 core each) of CPU.
+    maxReplicas: 10
