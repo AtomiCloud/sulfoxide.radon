@@ -2,3 +2,18 @@ appSettings:
   app:
     watcher:
       delay: 0.5
+scheduler:
+  appSettings:
+    app:
+      populator:
+        # KTMB-announced releases: these travel dates are watched at full power
+        # for 72h from `at`, even if KTMB search shows them before sales open.
+        releases:
+          # Jan–Feb 2027 opened 2 Nov but our updater was blocked until 7 Nov
+          - at: '2026-11-07T00:00:00+08:00'
+            from: '01-01-2027'
+            to: '28-02-2027'
+          # March 2027 opens 1 Dec 12pm (KTMB announcement)
+          - at: '2026-12-01T12:00:00+08:00'
+            from: '01-03-2027'
+            to: '31-03-2027'
