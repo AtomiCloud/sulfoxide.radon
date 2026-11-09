@@ -1,3 +1,10 @@
+## [1.11.5](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.4...v1.11.5) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **pikachu:** promote alcohol phone-timezone deadlines release ([3bac019](https://github.com/AtomiCloud/sulfoxide.radon/commit/3bac0199b47e05bfd95b0a78e5987805a956f952))
+
 ## [1.11.4](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.3...v1.11.4) (2026-11-09)
 
 
