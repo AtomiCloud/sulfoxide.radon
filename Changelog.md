@@ -1,3 +1,10 @@
+## [1.11.2](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.1...v1.11.2) (2026-11-09)
+
+
+### 🐛 Bug Fixes
+
+* **pikachu:** promote alcohol habit safety release ([4e8dc53](https://github.com/AtomiCloud/sulfoxide.radon/commit/4e8dc53f6adb0594967cc61c707c6631679244c5))
+
 ## [1.11.1](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.0...v1.11.1) (2026-07-19)
 
 
