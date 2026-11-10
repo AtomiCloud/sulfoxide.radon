@@ -1,3 +1,11 @@
+## [1.11.7](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.6...v1.11.7) (2026-11-10)
+
+
+### 🐛 Bug Fixes
+
+* **pikachu:** promote alcohol overview fields and proof plugins ([bcb6494](https://github.com/AtomiCloud/sulfoxide.radon/commit/bcb64941ed117c6d1c2556e32c0c61a5c27fb0c3)), closes [#86](https://github.com/AtomiCloud/sulfoxide.radon/issues/86) [#88](https://github.com/AtomiCloud/sulfoxide.radon/issues/88)
+* **raichu:** promote alcohol overview fields and proof plugins ([276e7ee](https://github.com/AtomiCloud/sulfoxide.radon/commit/276e7eef767b04078a760d971193e09f9d6a8029))
+
 ## [1.11.6](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.5...v1.11.6) (2026-11-09)
 
 
