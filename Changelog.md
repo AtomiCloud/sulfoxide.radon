@@ -1,3 +1,10 @@
+## [1.11.8](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.7...v1.11.8) (2026-11-13)
+
+
+### 🐛 Bug Fixes
+
+* **pikachu:** promote alcohol to zinc v1.41.0 ([7c0c01e](https://github.com/AtomiCloud/sulfoxide.radon/commit/7c0c01ef39e3f519fc56fc4acd3bf2453e1b3936)), closes [#89](https://github.com/AtomiCloud/sulfoxide.radon/issues/89) [#90](https://github.com/AtomiCloud/sulfoxide.radon/issues/90) [#91](https://github.com/AtomiCloud/sulfoxide.radon/issues/91) [#92](https://github.com/AtomiCloud/sulfoxide.radon/issues/92) [#93](https://github.com/AtomiCloud/sulfoxide.radon/issues/93)
+
 ## [1.11.7](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.6...v1.11.7) (2026-11-10)
 
 
