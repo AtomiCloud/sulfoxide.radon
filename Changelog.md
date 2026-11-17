@@ -1,3 +1,10 @@
+## [1.11.11](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.10...v1.11.11) (2026-11-17)
+
+
+### 🐛 Bug Fixes
+
+* recover pichu carbon with friend forward migration ([5e4e129](https://github.com/AtomiCloud/sulfoxide.radon/commit/5e4e12907c55c7e937157a180e60d30990f9ac47))
+
 ## [1.11.10](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.9...v1.11.10) (2026-11-17)
 
 
