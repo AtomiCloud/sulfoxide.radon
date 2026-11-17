@@ -6,13 +6,6 @@ metadata:
   annotations: {{- include "sulfoxide-radon.annotations" $ | nindent 4 }}
   labels: {{- include "sulfoxide-radon.labels" $ | nindent 4 }}
 spec:
-  {{- if eq $k "alcohol" }}
-  ignoreApplicationDifferences:
-    - name: pichu-ruby-alcohol-carbon
-      jsonPointers:
-        - /spec/syncPolicy/automated
-        - /metadata/annotations/argocd.argoproj.io~1skip-reconcile
-  {{- end }}
   generators:
     - matrix:
         generators:
@@ -20,11 +13,13 @@ spec:
               elements:
                 {{ range $service, $serviceConfig := $v -}}
                 {{- range $landscape, $revision := $serviceConfig.landscapes}}
+                {{- if not (and (eq $k "alcohol") (eq $service "carbon") (eq $landscape "pichu")) }}
                 - landscape: "{{ $landscape }}"
                   serviceName: "{{ $service }}"
                   repoURL: "{{ $serviceConfig.repoURL }}"
                   chart: "{{ $serviceConfig.chart }}"
                   revision: "{{ $revision }}"
+                {{- end }}
                 {{- end -}}
                 {{- end }}
           - clusters:
@@ -33,6 +28,33 @@ spec:
                   atomi.cloud/cluster-type: 'virtual'
                   atomi.cloud/cluster-landscape: "{{ `{{landscape}}` }}"
                   atomi.cloud/enable-appset: "true"
+    {{- if eq $k "alcohol" }}
+    {{- $carbon := index $v "carbon" }}
+    - matrix:
+        generators:
+          - list:
+              elements:
+                - landscape: "pichu"
+                  serviceName: "carbon"
+                  repoURL: "{{ $carbon.repoURL }}"
+                  chart: "{{ $carbon.chart }}"
+                  revision: "{{ index $carbon.landscapes "pichu" }}"
+          - clusters:
+              selector:
+                matchLabels:
+                  atomi.cloud/cluster-type: 'virtual'
+                  atomi.cloud/cluster-landscape: "{{ `{{landscape}}` }}"
+                  atomi.cloud/enable-appset: "true"
+        template:
+          metadata:
+            annotations:
+              argocd.argoproj.io/skip-reconcile: "false"
+          spec:
+            syncPolicy:
+              automated:
+                prune: true
+                selfHeal: true
+    {{- end }}
   template:
     metadata:
       name: '{{ `{{nameNormalized}}` }}-{{ $k }}-{{ `{{serviceName}}` }}'
