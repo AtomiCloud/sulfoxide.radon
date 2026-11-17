@@ -6,6 +6,13 @@ metadata:
   annotations: {{- include "sulfoxide-radon.annotations" $ | nindent 4 }}
   labels: {{- include "sulfoxide-radon.labels" $ | nindent 4 }}
 spec:
+  {{- if eq $k "alcohol" }}
+  ignoreApplicationDifferences:
+    - name: pichu-ruby-alcohol-carbon
+      jsonPointers:
+        - /spec/syncPolicy/automated
+        - /metadata/annotations/argocd.argoproj.io~1skip-reconcile
+  {{- end }}
   generators:
     - matrix:
         generators:
