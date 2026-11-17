@@ -1,3 +1,11 @@
+## [1.11.12](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.11...v1.11.12) (2026-11-17)
+
+
+### 🐛 Bug Fixes
+
+* add required project and destination to pichu generator template ([1f456ea](https://github.com/AtomiCloud/sulfoxide.radon/commit/1f456ea83b74f13fa09e81672367dd24d9a7f153))
+* pin pichu carbon back to 76560c after completed migration ([3e099db](https://github.com/AtomiCloud/sulfoxide.radon/commit/3e099db00ba0339e35e123591d8ce102e6c178ba))
+
 ## [1.11.11](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.10...v1.11.11) (2026-11-17)
 
 
