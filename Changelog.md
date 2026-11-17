@@ -1,3 +1,11 @@
+## [1.11.10](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.9...v1.11.10) (2026-11-17)
+
+
+### 🐛 Bug Fixes
+
+* pin held pichu to friend history candidate ([b06ed5d](https://github.com/AtomiCloud/sulfoxide.radon/commit/b06ed5d8108470009113b575567704d59282f711))
+* preserve pichu hold during friend cutover ([2528500](https://github.com/AtomiCloud/sulfoxide.radon/commit/252850017bbc1aaf61ed2488f60752eddf321b59))
+
 ## [1.11.9](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.8...v1.11.9) (2026-11-13)
 
 
