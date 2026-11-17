@@ -50,6 +50,10 @@ spec:
             annotations:
               argocd.argoproj.io/skip-reconcile: "false"
           spec:
+            project: "{{ $k }}"
+            destination:
+              server: '{{ `{{server}}` }}'
+              namespace: "{{ $k }}"
             syncPolicy:
               automated:
                 prune: true
