@@ -41,6 +41,6 @@ apps:
       repoURL: ghcr.io/atomicloud/alcohol.carbon
       chart: alcohol-carbon
       landscapes:
-        pichu: v1.30.2
+        pichu: v1.31.0
         pikachu: v1.29.8
         raichu: v1.29.8
