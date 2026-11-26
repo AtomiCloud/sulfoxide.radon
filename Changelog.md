@@ -1,3 +1,10 @@
+## [1.11.13](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.12...v1.11.13) (2026-11-26)
+
+
+### 🐛 Bug Fixes
+
+* pichu alcohol carbon v1.33.1 (zinc v1.48.1) ([#114](https://github.com/AtomiCloud/sulfoxide.radon/issues/114)) ([61a64a3](https://github.com/AtomiCloud/sulfoxide.radon/commit/61a64a32fd5864ab9491af3f6fd88f148e3d6024))
+
 ## [1.11.12](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.11...v1.11.12) (2026-11-17)
 
 
