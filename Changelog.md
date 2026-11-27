@@ -1,3 +1,10 @@
+## [1.13.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.12.0...v1.13.0) (2026-11-27)
+
+
+### 🚀 New Features
+
+* pikachu and raichu alcohol carbon v1.34.0 (zinc v1.49.0) ([#117](https://github.com/AtomiCloud/sulfoxide.radon/issues/117)) ([eabfc13](https://github.com/AtomiCloud/sulfoxide.radon/commit/eabfc136b5c14750c9c26cfec0ddc1fe964ad467))
+
 ## [1.12.0](https://github.com/AtomiCloud/sulfoxide.radon/compare/v1.11.14...v1.12.0) (2026-11-27)
 
 
